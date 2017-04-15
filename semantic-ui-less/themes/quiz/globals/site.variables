@@ -1,0 +1,42 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@emSize   : 16px;
+
+// Fonts
+@fontName          : 'Work Sans';
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @headerFont;
+
+@googleFontFamily  : 'Work+Sans:300,400,500,600,700,800|Material+Icons';
+
+@lineHeight          : 1.45;
+
+// Page Heading
+@headerFontWeight : 700;
+@headerLineHeight : 1.2;
+
+// Fonts
+@h0 : 3.998rem;
+@h1 : 2.827rem;
+@h2 : 1.999rem;
+@h3 : 1.414rem;
+@h4 : 1.0605rem;
+@h5 : 0.707rem;
+@h6 : 0.5rem;
+
+// Typographic Scale
+@scale_100  : unit(@h3);            // 1.414
+@scale_75   : unit(@h3 * 0.75);     // 1.0605
+@scale_50   : unit(@h3 * 0.5);      // 0.707
+@scale_25   : unit(@h3 * 0.25);     // 0.3535
+
+// Header Spacing
+@headerMargin   : unit(@scale_100, em) 0em unit(@scale_50, em);
+
+// Sizes
+@smallSize  : 0.707rem;
+
+@greenTextColor  : @white;

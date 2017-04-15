@@ -1,0 +1,14 @@
+/*******************************
+         Theme Overrides
+*******************************/
+@verticalPadding: 0.3535rem;
+
+// Answer Feedback
+.answer-feedback .ui.ribbon  {
+  margin-top: -(unit(@scale_50, em));
+  padding-top: @verticalPadding;
+  padding-bottom: @verticalPadding;
+  & h4 {
+    font-size:0.707rem;
+  }
+}

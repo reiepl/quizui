@@ -1,0 +1,21 @@
+@version        : 'v0.1';
+@css-path       : '../../css';
+@semantic-path  : '../../semantic-ui-less';
+
+@import "@{semantic-path}/definitions/globals/reset";
+@import "@{semantic-path}/definitions/globals/site";
+
+// Elements
+@import "@{semantic-path}/definitions/elements/container";
+@import "@{semantic-path}/definitions/elements/header";
+@import "@{semantic-path}/definitions/elements/label";
+@import "@{semantic-path}/definitions/elements/segment";
+
+// Modules
+@import "@{semantic-path}/definitions/modules/checkbox";
+//@import "@{semantic-path}/semantic.less";
+
+.answer-feedback.ui.segment {
+  background: lighten(@green, 50%);
+  margin:unit(@scale_50, em);
+}

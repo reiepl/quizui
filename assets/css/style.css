@@ -1,0 +1,5868 @@
+/*!
+ * # Semantic UI - Reset
+ * http://github.com/semantic-org/semantic-ui/
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+             Reset
+*******************************/
+/* Packaged Theme */
+/* Site Theme */
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+             Reset
+*******************************/
+/* Border-Box */
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Work Sans:400,700,400italic,700italic&subset=latin');
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+/* iPad Input Shadows */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* mobile firefox too! */
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged Theme */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site Theme */
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+             Page
+*******************************/
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.87);
+  font-smoothing: antialiased;
+}
+/*******************************
+             Headers
+*******************************/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  margin: 1.414em 0em 0.707em;
+  font-weight: 700;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2.827rem;
+}
+h2 {
+  font-size: 1.999rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 1.0605rem;
+}
+h5 {
+  font-size: 0.707rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+/*******************************
+             Text
+*******************************/
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.45;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+/*-------------------
+        Links
+--------------------*/
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+a:hover {
+  color: #1e70bf;
+  text-decoration: none;
+}
+/*******************************
+          Highlighting
+*******************************/
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Container
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+            Container
+*******************************/
+/*-------------------
+       Element
+--------------------*/
+/* Minimum Gutter is used to determine  the maximum container width for a given device */
+/* Devices */
+/* Coupling (Add Negative Margin to container size) */
+/*-------------------
+       Types
+--------------------*/
+/* Text */
+/* Packaged Theme */
+/* Site Theme */
+/*******************************
+    User Variable Overrides
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+            Container
+*******************************/
+/* All Sizes */
+.ui.container {
+  display: block;
+  max-width: 100% !important;
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    width: auto !important;
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+  }
+  .ui.grid.container {
+    width: auto !important;
+  }
+  .ui.relaxed.grid.container {
+    width: auto !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: auto !important;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.container {
+    width: 719px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 719px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 719px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 719px  +  5rem ) !important;
+  }
+}
+/* Small Monitor */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ui.container {
+    width: 927px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 927px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 927px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 927px  +  5rem ) !important;
+  }
+}
+/* Large Monitor */
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: 1119px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .ui.grid.container {
+    width: calc( 1119px  +  2rem ) !important;
+  }
+  .ui.relaxed.grid.container {
+    width: calc( 1119px  +  3rem ) !important;
+  }
+  .ui.very.relaxed.grid.container {
+    width: calc( 1119px  +  5rem ) !important;
+  }
+}
+/*******************************
+             Types
+*******************************/
+/* Text Container */
+.ui.text.container {
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  max-width: 700px !important;
+  line-height: 1.5;
+}
+.ui.text.container {
+  font-size: 1.125rem;
+}
+/* Fluid */
+.ui.fluid.container {
+  width: 100%;
+}
+/*******************************
+           Variations
+*******************************/
+.ui[class*="left aligned"].container {
+  text-align: left;
+}
+.ui[class*="center aligned"].container {
+  text-align: center;
+}
+.ui[class*="right aligned"].container {
+  text-align: right;
+}
+.ui.justified.container {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Header
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+            Header
+*******************************/
+/*-------------------
+       Element
+--------------------*/
+/* Sub Heading */
+/* Sub Header */
+/* Icon */
+/* Image */
+/* Label */
+/* Content */
+/* Paragraph after Header */
+/*-------------------
+      Variations
+--------------------*/
+/* Sizing */
+/* Sub Header */
+/* Icon Header */
+/* No Line Height Offset */
+/* Divided */
+/* Block */
+/* Attached */
+/* Inverted */
+/* Floated */
+/* Packaged Theme */
+/* Site Theme */
+/*******************************
+    User Variable Overrides
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+            Header
+*******************************/
+/* Standard */
+.ui.header {
+  border: none;
+  margin: 1rem 0em;
+  padding: 1em 1em;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.45;
+  text-transform: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+.ui.header:first-child {
+  margin-top: -0.225em;
+}
+.ui.header:last-child {
+  margin-bottom: 0em;
+}
+/*--------------
+   Sub Header
+---------------*/
+.ui.header .sub.header {
+  display: block;
+  font-weight: normal;
+  padding: 0em;
+  margin: 0em;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.6);
+}
+/*--------------
+      Icon
+---------------*/
+.ui.header > .icon {
+  display: table-cell;
+  opacity: 1;
+  font-size: 1.5em;
+  padding-top: 0.225em;
+  vertical-align: middle;
+}
+/* With Text Node */
+.ui.header .icon:only-child {
+  display: inline-block;
+  padding: 0em;
+  margin-right: 0.75rem;
+}
+/*-------------------
+        Image
+--------------------*/
+.ui.header > .image:not(.icon),
+.ui.header > img {
+  display: inline-block;
+  margin-top: 0.225em;
+  width: 2.5em;
+  height: 3em;
+  vertical-align: middle;
+}
+.ui.header > .image:not(.icon):only-child,
+.ui.header > img:only-child {
+  margin-right: 0.75rem;
+}
+/*--------------
+     Content
+---------------*/
+.ui.header .content {
+  display: inline-block;
+  vertical-align: top;
+}
+/* After Image */
+.ui.header > img + .content,
+.ui.header > .image + .content {
+  padding-left: 0.75rem;
+  vertical-align: middle;
+}
+/* After Icon */
+.ui.header > .icon + .content {
+  padding-left: 0.75rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+/*--------------
+ Loose Coupling
+---------------*/
+.ui.header .ui.label {
+  font-size: '';
+  margin-left: 1.85714em;
+  vertical-align: middle;
+}
+/* Positioning */
+.ui.header + p {
+  margin-top: 0em;
+}
+/*******************************
+            Types
+*******************************/
+/*--------------
+     Page
+---------------*/
+h1.ui.header {
+  font-size: 2.827rem;
+}
+h2.ui.header {
+  font-size: 1.999rem;
+}
+h3.ui.header {
+  font-size: 1.414rem;
+}
+h4.ui.header {
+  font-size: 1.0605rem;
+}
+h5.ui.header {
+  font-size: 0.707rem;
+}
+/* Sub Header */
+h1.ui.header .sub.header {
+  font-size: 1.125rem;
+}
+h2.ui.header .sub.header {
+  font-size: 1.125rem;
+}
+h3.ui.header .sub.header {
+  font-size: 1rem;
+}
+h4.ui.header .sub.header {
+  font-size: 1rem;
+}
+h5.ui.header .sub.header {
+  font-size: 0.6875rem;
+}
+/*--------------
+ Content Heading
+---------------*/
+.ui.huge.header {
+  min-height: 1em;
+  font-size: 2.827em;
+}
+.ui.large.header {
+  font-size: 1.999em;
+}
+.ui.medium.header {
+  font-size: 1.414em;
+}
+.ui.small.header {
+  font-size: 1.0605em;
+}
+.ui.tiny.header {
+  font-size: 0.707em;
+}
+/* Sub Header */
+.ui.huge.header .sub.header {
+  font-size: 1.125rem;
+}
+.ui.large.header .sub.header {
+  font-size: 1.125rem;
+}
+.ui.header .sub.header {
+  font-size: 1rem;
+}
+.ui.small.header .sub.header {
+  font-size: 1rem;
+}
+.ui.tiny.header .sub.header {
+  font-size: 0.6875rem;
+}
+/*--------------
+   Sub Heading
+---------------*/
+.ui.sub.header {
+  padding: 0em;
+  margin-bottom: 0.125rem;
+  font-weight: bold;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  color: '';
+}
+.ui.small.sub.header {
+  font-size: 0.8125em;
+}
+.ui.sub.header {
+  font-size: 0.875em;
+}
+.ui.large.sub.header {
+  font-size: 0.6875em;
+}
+.ui.huge.sub.header {
+  font-size: 1em;
+}
+/*-------------------
+        Icon
+--------------------*/
+.ui.icon.header {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 0em 1rem;
+}
+.ui.icon.header:after {
+  content: '';
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+.ui.icon.header:first-child {
+  margin-top: 0em;
+}
+.ui.icon.header .icon {
+  float: none;
+  display: block;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 0em;
+  font-size: 3em;
+  margin: 0em auto 0.5rem;
+  opacity: 1;
+}
+.ui.icon.header .content {
+  display: block;
+  padding: 0em;
+}
+.ui.icon.header .circular.icon {
+  font-size: 2em;
+}
+.ui.icon.header .square.icon {
+  font-size: 2em;
+}
+.ui.block.icon.header .icon {
+  margin-bottom: 0em;
+}
+.ui.icon.header.aligned {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*******************************
+            States
+*******************************/
+.ui.disabled.header {
+  opacity: 0.45;
+}
+/*******************************
+           Variations
+*******************************/
+/*-------------------
+      Inverted
+--------------------*/
+.ui.inverted.header {
+  color: #FFFFFF;
+}
+.ui.inverted.header .sub.header {
+  color: rgba(255, 255, 255, 0.8);
+}
+.ui.inverted.attached.header {
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+  border-color: transparent;
+}
+.ui.inverted.block.header {
+  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  box-shadow: none;
+}
+.ui.inverted.block.header {
+  border-bottom: none;
+}
+/*-------------------
+       Colors
+--------------------*/
+/*--- Red ---*/
+.ui.red.header {
+  color: #DB2828 !important;
+}
+a.ui.red.header:hover {
+  color: #d01919 !important;
+}
+.ui.red.dividing.header {
+  border-bottom: 2px solid #DB2828;
+}
+/* Inverted */
+.ui.inverted.red.header {
+  color: #FF695E !important;
+}
+a.ui.inverted.red.header:hover {
+  color: #ff5144 !important;
+}
+/*--- Orange ---*/
+.ui.orange.header {
+  color: #F2711C !important;
+}
+a.ui.orange.header:hover {
+  color: #f26202 !important;
+}
+.ui.orange.dividing.header {
+  border-bottom: 2px solid #F2711C;
+}
+/* Inverted */
+.ui.inverted.orange.header {
+  color: #FF851B !important;
+}
+a.ui.inverted.orange.header:hover {
+  color: #ff7701 !important;
+}
+/*--- Olive ---*/
+.ui.olive.header {
+  color: #B5CC18 !important;
+}
+a.ui.olive.header:hover {
+  color: #a7bd0d !important;
+}
+.ui.olive.dividing.header {
+  border-bottom: 2px solid #B5CC18;
+}
+/* Inverted */
+.ui.inverted.olive.header {
+  color: #D9E778 !important;
+}
+a.ui.inverted.olive.header:hover {
+  color: #d8ea5c !important;
+}
+/*--- Yellow ---*/
+.ui.yellow.header {
+  color: #FBBD08 !important;
+}
+a.ui.yellow.header:hover {
+  color: #eaae00 !important;
+}
+.ui.yellow.dividing.header {
+  border-bottom: 2px solid #FBBD08;
+}
+/* Inverted */
+.ui.inverted.yellow.header {
+  color: #FFE21F !important;
+}
+a.ui.inverted.yellow.header:hover {
+  color: #ffdf05 !important;
+}
+/*--- Green ---*/
+.ui.green.header {
+  color: #21BA45 !important;
+}
+a.ui.green.header:hover {
+  color: #16ab39 !important;
+}
+.ui.green.dividing.header {
+  border-bottom: 2px solid #21BA45;
+}
+/* Inverted */
+.ui.inverted.green.header {
+  color: #2ECC40 !important;
+}
+a.ui.inverted.green.header:hover {
+  color: #22be34 !important;
+}
+/*--- Teal ---*/
+.ui.teal.header {
+  color: #00B5AD !important;
+}
+a.ui.teal.header:hover {
+  color: #009c95 !important;
+}
+.ui.teal.dividing.header {
+  border-bottom: 2px solid #00B5AD;
+}
+/* Inverted */
+.ui.inverted.teal.header {
+  color: #6DFFFF !important;
+}
+a.ui.inverted.teal.header:hover {
+  color: #54ffff !important;
+}
+/*--- Blue ---*/
+.ui.blue.header {
+  color: #2185D0 !important;
+}
+a.ui.blue.header:hover {
+  color: #1678c2 !important;
+}
+.ui.blue.dividing.header {
+  border-bottom: 2px solid #2185D0;
+}
+/* Inverted */
+.ui.inverted.blue.header {
+  color: #54C8FF !important;
+}
+a.ui.inverted.blue.header:hover {
+  color: #3ac0ff !important;
+}
+/*--- Violet ---*/
+.ui.violet.header {
+  color: #6435C9 !important;
+}
+a.ui.violet.header:hover {
+  color: #5829bb !important;
+}
+.ui.violet.dividing.header {
+  border-bottom: 2px solid #6435C9;
+}
+/* Inverted */
+.ui.inverted.violet.header {
+  color: #A291FB !important;
+}
+a.ui.inverted.violet.header:hover {
+  color: #8a73ff !important;
+}
+/*--- Purple ---*/
+.ui.purple.header {
+  color: #A333C8 !important;
+}
+a.ui.purple.header:hover {
+  color: #9627ba !important;
+}
+.ui.purple.dividing.header {
+  border-bottom: 2px solid #A333C8;
+}
+/* Inverted */
+.ui.inverted.purple.header {
+  color: #DC73FF !important;
+}
+a.ui.inverted.purple.header:hover {
+  color: #d65aff !important;
+}
+/*--- Pink ---*/
+.ui.pink.header {
+  color: #E03997 !important;
+}
+a.ui.pink.header:hover {
+  color: #e61a8d !important;
+}
+.ui.pink.dividing.header {
+  border-bottom: 2px solid #E03997;
+}
+/* Inverted */
+.ui.inverted.pink.header {
+  color: #FF8EDF !important;
+}
+a.ui.inverted.pink.header:hover {
+  color: #ff74d8 !important;
+}
+/*--- Brown ---*/
+.ui.brown.header {
+  color: #A5673F !important;
+}
+a.ui.brown.header:hover {
+  color: #975b33 !important;
+}
+.ui.brown.dividing.header {
+  border-bottom: 2px solid #A5673F;
+}
+/* Inverted */
+.ui.inverted.brown.header {
+  color: #D67C1C !important;
+}
+a.ui.inverted.brown.header:hover {
+  color: #c86f11 !important;
+}
+/*--- Grey ---*/
+.ui.grey.header {
+  color: #767676 !important;
+}
+a.ui.grey.header:hover {
+  color: #838383 !important;
+}
+.ui.grey.dividing.header {
+  border-bottom: 2px solid #767676;
+}
+/* Inverted */
+.ui.inverted.grey.header {
+  color: #DCDDDE !important;
+}
+a.ui.inverted.grey.header:hover {
+  color: #cfd0d2 !important;
+}
+/*-------------------
+       Aligned
+--------------------*/
+.ui.left.aligned.header {
+  text-align: left;
+}
+.ui.right.aligned.header {
+  text-align: right;
+}
+.ui.centered.header,
+.ui.center.aligned.header {
+  text-align: center;
+}
+.ui.justified.header {
+  text-align: justify;
+}
+.ui.justified.header:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+/*-------------------
+       Floated
+--------------------*/
+.ui.floated.header,
+.ui[class*="left floated"].header {
+  float: left;
+  margin-top: 0em;
+  margin-right: 0.5em;
+}
+.ui[class*="right floated"].header {
+  float: right;
+  margin-top: 0em;
+  margin-left: 0.5em;
+}
+/*-------------------
+       Fitted
+--------------------*/
+.ui.fitted.header {
+  padding: 0em;
+}
+/*-------------------
+      Dividing
+--------------------*/
+.ui.dividing.header {
+  padding-bottom: 0.1875rem;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+.ui.dividing.header .sub.header {
+  padding-bottom: 0.1875rem;
+}
+.ui.dividing.header .icon {
+  margin-bottom: 0em;
+}
+.ui.inverted.dividing.header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+/*-------------------
+        Block
+--------------------*/
+.ui.block.header {
+  background: #F3F4F5;
+  padding: 0.8125rem 1rem;
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+  border-radius: 0.25rem;
+}
+.ui.tiny.block.header {
+  font-size: 0.875rem;
+}
+.ui.small.block.header {
+  font-size: 0.6875rem;
+}
+.ui.block.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1rem;
+}
+.ui.large.block.header {
+  font-size: 1.125rem;
+}
+.ui.huge.block.header {
+  font-size: 1.4375rem;
+}
+/*-------------------
+       Attached
+--------------------*/
+.ui.attached.header {
+  background: #FFFFFF;
+  padding: 0.75em 1em;
+  margin-left: -1px;
+  margin-right: -1px;
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+}
+.ui.attached.block.header {
+  background: #F3F4F5;
+}
+.ui.attached:not(.top):not(.bottom).header {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-top: none;
+  border-radius: 0em;
+}
+.ui.top.attached.header {
+  margin-bottom: 0em;
+  border-radius: 0.25rem 0.25rem 0em 0em;
+}
+.ui.bottom.attached.header {
+  margin-top: 0em;
+  border-top: none;
+  border-radius: 0em 0em 0.25rem 0.25rem;
+}
+/* Attached Sizes */
+.ui.tiny.attached.header {
+  font-size: 0.875em;
+}
+.ui.small.attached.header {
+  font-size: 0.6875em;
+}
+.ui.attached.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1em;
+}
+.ui.large.attached.header {
+  font-size: 1.125em;
+}
+.ui.huge.attached.header {
+  font-size: 1.4375em;
+}
+/*-------------------
+        Sizing
+--------------------*/
+.ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-size: 1.414em;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Label
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+             Label
+*******************************/
+/*-------------------
+       Element
+--------------------*/
+/* medium is not @emSize custom value required */
+/* Group */
+/*-------------------
+        Parts
+--------------------*/
+/* Link */
+/* Icon */
+/* Image */
+/* Detail */
+/* Delete */
+/*-------------------
+        Types
+--------------------*/
+/* Image Label */
+/*-------------------
+        States
+--------------------*/
+/* Hover */
+/* Active */
+/* Active Hover */
+/*-------------------
+      Variations
+--------------------*/
+/* Basic */
+/* Tag */
+/* Avoids error with background: inherit; on animation */
+/* Ribbon */
+/* Rounding Offset on Triangle */
+/* Rounding Offset on Triangle */
+/* Colors */
+/* Attached */
+/* Corner */
+/* Corner Text */
+/* Horizontal */
+/* Circular Padding */
+/* Pointing */
+/* Basic Pointing */
+/* Floating */
+/*-------------------
+        Group
+--------------------*/
+/* Sizing */
+/* Packaged Theme */
+/*******************************
+             Label
+*******************************/
+/* Site Theme */
+/*******************************
+    User Variable Overrides
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+            Label
+*******************************/
+.ui.label {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 1rem 0em;
+  background-color: #E8E8E8;
+  background-image: none;
+  padding: 1em 1em;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: none;
+  font-weight: bold;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.25rem;
+  transition: 'default';
+}
+.ui.label:first-child {
+  margin-left: 0em;
+}
+.ui.label:last-child {
+  margin-right: 0em;
+}
+/* Link */
+a.ui.label {
+  cursor: pointer;
+}
+/* Inside Link */
+.ui.label > a {
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.5;
+  transition: 0.1s opacity ease;
+}
+.ui.label > a:hover {
+  opacity: 1;
+}
+/* Image */
+.ui.label > img {
+  width: auto !important;
+  vertical-align: middle;
+  height: 3em !important;
+}
+/* Icon */
+.ui.label > .icon {
+  width: auto;
+  margin: 0em 0.75em 0em 0em;
+}
+/* Detail */
+.ui.label > .detail {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  margin-left: 1em;
+  opacity: 0.8;
+}
+.ui.label > .detail .icon {
+  margin: 0em 0.25em 0em 0em;
+}
+/* Removable label */
+.ui.label > .close.icon,
+.ui.label > .delete.icon {
+  cursor: pointer;
+  margin-right: 0em;
+  margin-left: 0.5em;
+  font-size: 0.6875em;
+  opacity: 0.5;
+  transition: background 0.1s ease;
+}
+.ui.label > .delete.icon:hover {
+  opacity: 1;
+}
+/*-------------------
+       Group
+--------------------*/
+.ui.labels > .label {
+  margin: 0em 0.5em 0.5em 0em;
+}
+/*-------------------
+       Coupling
+--------------------*/
+.ui.header > .ui.label {
+  margin-top: 0.225em;
+}
+/* Remove border radius on attached segment */
+.ui.attached.segment > .ui.top.left.attached.label,
+.ui.bottom.attached.segment > .ui.top.left.attached.label {
+  border-top-left-radius: 0;
+}
+.ui.attached.segment > .ui.top.right.attached.label,
+.ui.bottom.attached.segment > .ui.top.right.attached.label {
+  border-top-right-radius: 0;
+}
+.ui.top.attached.segment > .ui.bottom.left.attached.label {
+  border-bottom-left-radius: 0;
+}
+.ui.top.attached.segment > .ui.bottom.right.attached.label {
+  border-bottom-right-radius: 0;
+}
+/* Padding on next content after a label */
+.ui.top.attached.label:first-child + :not(.attached),
+.ui.top.attached.label + [class*="right floated"] + * {
+  margin-top: 2rem !important;
+}
+.ui.bottom.attached.label:first-child ~ :last-child:not(.attached) {
+  margin-top: 0em;
+  margin-bottom: 2rem !important;
+}
+/*******************************
+             Types
+*******************************/
+.ui.image.label {
+  width: auto !important;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  max-width: 9999px;
+  vertical-align: baseline;
+  text-transform: none;
+  background: #E8E8E8;
+  padding: 1em 1em 1em 0.5em;
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+.ui.image.label img {
+  display: inline-block;
+  vertical-align: top;
+  height: 3em;
+  margin: -1em 0.5em -1em -0.5em;
+  border-radius: 0.25rem 0em 0em 0.25rem;
+}
+.ui.image.label .detail {
+  background: rgba(0, 0, 0, 0.1);
+  margin: -1em -1em -1em 0.5em;
+  padding: 1em 1em;
+  border-radius: 0em 0.25rem 0.25rem 0em;
+}
+/*-------------------
+         Tag
+--------------------*/
+.ui.tag.labels .label,
+.ui.tag.label {
+  margin-left: 1em;
+  position: relative;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 0em 0.25rem 0.25rem 0em;
+  transition: none;
+}
+.ui.tag.labels .label:before,
+.ui.tag.label:before {
+  position: absolute;
+  -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
+  transform: translateY(-50%) translateX(50%) rotate(-45deg);
+  top: 50%;
+  right: 100%;
+  content: '';
+  background-color: inherit;
+  background-image: none;
+  width: 1.56em;
+  height: 1.56em;
+  transition: none;
+}
+.ui.tag.labels .label:after,
+.ui.tag.label:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: -0.25em;
+  margin-top: -0.25em;
+  background-color: #FFFFFF !important;
+  width: 0.5em;
+  height: 0.5em;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 500rem;
+}
+/*-------------------
+    Corner Label
+--------------------*/
+.ui.corner.label {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  margin: 0em;
+  padding: 0em;
+  text-align: center;
+  border-color: #E8E8E8;
+  width: 4em;
+  height: 4em;
+  z-index: 1;
+  transition: border-color 0.1s ease;
+}
+/* Icon Label */
+.ui.corner.label {
+  background-color: transparent !important;
+}
+.ui.corner.label:after {
+  position: absolute;
+  content: "";
+  right: 0em;
+  top: 0em;
+  z-index: -1;
+  width: 0em;
+  height: 0em;
+  background-color: transparent !important;
+  border-top: 0em solid transparent;
+  border-right: 4em solid transparent;
+  border-bottom: 4em solid transparent;
+  border-left: 0em solid transparent;
+  border-right-color: inherit;
+  transition: border-color 0.1s ease;
+}
+.ui.corner.label .icon {
+  cursor: default;
+  position: relative;
+  top: 0.5625em;
+  left: 0.6875em;
+  font-size: 1.125em;
+  margin: 0em;
+}
+/* Left Corner */
+.ui.left.corner.label,
+.ui.left.corner.label:after {
+  right: auto;
+  left: 0em;
+}
+.ui.left.corner.label:after {
+  border-top: 4em solid transparent;
+  border-right: 4em solid transparent;
+  border-bottom: 0em solid transparent;
+  border-left: 0em solid transparent;
+  border-top-color: inherit;
+}
+.ui.left.corner.label .icon {
+  left: -0.6875em;
+}
+/* Segment */
+.ui.segment > .ui.corner.label {
+  top: -1px;
+  right: -1px;
+}
+.ui.segment > .ui.left.corner.label {
+  right: auto;
+  left: -1px;
+}
+/*-------------------
+       Ribbon
+--------------------*/
+.ui.ribbon.label {
+  position: relative;
+  margin: 0em;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  border-radius: 0em 0.25rem 0.25rem 0em;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.ui.ribbon.label:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0%;
+  background-color: transparent !important;
+  border-style: solid;
+  border-width: 0em 1.2em 1.2em 0em;
+  border-color: transparent;
+  border-right-color: inherit;
+  width: 0em;
+  height: 0em;
+}
+/* Positioning */
+.ui.ribbon.label {
+  left: calc( -1rem  -  1.2em );
+  margin-right: -1.2em;
+  padding-left: calc( 1rem  +  1.2em );
+  padding-right: 1.2em;
+}
+.ui[class*="right ribbon"].label {
+  left: calc(100% +  1rem  +  1.2em );
+  padding-left: 1.2em;
+  padding-right: calc( 1rem  +  1.2em );
+}
+/* Right Ribbon */
+.ui[class*="right ribbon"].label {
+  text-align: left;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  border-radius: 0.25rem 0em 0em 0.25rem;
+}
+.ui[class*="right ribbon"].label:after {
+  left: auto;
+  right: 0%;
+  border-style: solid;
+  border-width: 1.2em 1.2em 0em 0em;
+  border-color: transparent;
+  border-top-color: inherit;
+}
+/* Inside Table */
+.ui.image > .ribbon.label,
+.ui.card .image > .ribbon.label {
+  position: absolute;
+  top: 1rem;
+}
+.ui.card .image > .ui.ribbon.label,
+.ui.image > .ui.ribbon.label {
+  left: calc( 0.05rem  -  1.2em );
+}
+.ui.card .image > .ui[class*="right ribbon"].label,
+.ui.image > .ui[class*="right ribbon"].label {
+  left: calc(100% +  -0.05rem  +  1.2em );
+  padding-left: 1em;
+}
+/* Inside Table */
+.ui.table td > .ui.ribbon.label {
+  left: calc( -0.8125em  -  1.2em );
+}
+.ui.table td > .ui[class*="right ribbon"].label {
+  left: calc(100% +  0.8125em  +  1.2em );
+  padding-left: 1em;
+}
+/*-------------------
+      Attached
+--------------------*/
+.ui[class*="top attached"].label,
+.ui.attached.label {
+  width: 100%;
+  position: absolute;
+  margin: 0em;
+  top: 0em;
+  left: 0em;
+  padding: 0.75em 1em;
+  border-radius: 0.1875rem 0.1875rem 0em 0em;
+}
+.ui[class*="bottom attached"].label {
+  top: auto;
+  bottom: 0em;
+  border-radius: 0em 0em 0.1875rem 0.1875rem;
+}
+.ui[class*="top left attached"].label {
+  width: auto;
+  margin-top: 0em !important;
+  border-radius: 0.1875rem 0em 0.25rem 0em;
+}
+.ui[class*="top right attached"].label {
+  width: auto;
+  left: auto;
+  right: 0em;
+  border-radius: 0em 0.1875rem 0em 0.25rem;
+}
+.ui[class*="bottom left attached"].label {
+  width: auto;
+  top: auto;
+  bottom: 0em;
+  border-radius: 0em 0.25rem 0em 0.1875rem;
+}
+.ui[class*="bottom right attached"].label {
+  top: auto;
+  bottom: 0em;
+  left: auto;
+  right: 0em;
+  width: auto;
+  border-radius: 0.25rem 0em 0.1875rem 0em;
+}
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+.ui.label.disabled {
+  opacity: 0.5;
+}
+/*-------------------
+        Hover
+--------------------*/
+a.ui.labels .label:hover,
+a.ui.label:hover {
+  background-color: #E0E0E0;
+  border-color: #E0E0E0;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.labels a.label:hover:before,
+a.ui.label:hover:before {
+  color: rgba(0, 0, 0, 0.8);
+}
+/*-------------------
+        Active
+--------------------*/
+.ui.active.label {
+  background-color: #D0D0D0;
+  border-color: #D0D0D0;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.95);
+}
+.ui.active.label:before {
+  background-color: #D0D0D0;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.95);
+}
+/*-------------------
+     Active Hover
+--------------------*/
+a.ui.labels .active.label:hover,
+a.ui.active.label:hover {
+  background-color: #C8C8C8;
+  border-color: #C8C8C8;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.95);
+}
+.ui.labels a.active.label:ActiveHover:before,
+a.ui.active.label:ActiveHover:before {
+  background-color: #C8C8C8;
+  background-image: none;
+  color: rgba(0, 0, 0, 0.95);
+}
+/*-------------------
+      Visible
+--------------------*/
+.ui.labels.visible .label,
+.ui.label.visible:not(.dropdown) {
+  display: inline-block !important;
+}
+/*-------------------
+      Hidden
+--------------------*/
+.ui.labels.hidden .label,
+.ui.label.hidden {
+  display: none !important;
+}
+/*******************************
+           Variations
+*******************************/
+/*-------------------
+       Colors
+--------------------*/
+/*--- Red ---*/
+.ui.red.labels .label,
+.ui.red.label {
+  background-color: #DB2828 !important;
+  border-color: #DB2828 !important;
+  color: #DB2828 !important;
+}
+/* Link */
+.ui.red.labels .label:hover,
+a.ui.red.label:hover {
+  background-color: #d01919 !important;
+  border-color: #d01919 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.red.corner.label,
+.ui.red.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.red.ribbon.label {
+  border-color: #b21e1e !important;
+}
+/* Basic */
+.ui.basic.red.label {
+  background-color: #FFFFFF !important;
+  color: #DB2828 !important;
+  border-color: #DB2828 !important;
+}
+.ui.basic.red.labels a.label:hover,
+a.ui.basic.red.label:hover {
+  background-color: #FFFFFF !important;
+  color: #d01919 !important;
+  border-color: #d01919 !important;
+}
+/*--- Orange ---*/
+.ui.orange.labels .label,
+.ui.orange.label {
+  background-color: #F2711C !important;
+  border-color: #F2711C !important;
+  color: #F2711C !important;
+}
+/* Link */
+.ui.orange.labels .label:hover,
+a.ui.orange.label:hover {
+  background-color: #f26202 !important;
+  border-color: #f26202 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.orange.corner.label,
+.ui.orange.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.orange.ribbon.label {
+  border-color: #cf590c !important;
+}
+/* Basic */
+.ui.basic.orange.label {
+  background-color: #FFFFFF !important;
+  color: #F2711C !important;
+  border-color: #F2711C !important;
+}
+.ui.basic.orange.labels a.label:hover,
+a.ui.basic.orange.label:hover {
+  background-color: #FFFFFF !important;
+  color: #f26202 !important;
+  border-color: #f26202 !important;
+}
+/*--- Yellow ---*/
+.ui.yellow.labels .label,
+.ui.yellow.label {
+  background-color: #FBBD08 !important;
+  border-color: #FBBD08 !important;
+  color: #B58105 !important;
+}
+/* Link */
+.ui.yellow.labels .label:hover,
+a.ui.yellow.label:hover {
+  background-color: #eaae00 !important;
+  border-color: #eaae00 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.yellow.corner.label,
+.ui.yellow.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.yellow.ribbon.label {
+  border-color: #cd9903 !important;
+}
+/* Basic */
+.ui.basic.yellow.label {
+  background-color: #FFFFFF !important;
+  color: #FBBD08 !important;
+  border-color: #FBBD08 !important;
+}
+.ui.basic.yellow.labels a.label:hover,
+a.ui.basic.yellow.label:hover {
+  background-color: #FFFFFF !important;
+  color: #eaae00 !important;
+  border-color: #eaae00 !important;
+}
+/*--- Olive ---*/
+.ui.olive.labels .label,
+.ui.olive.label {
+  background-color: #B5CC18 !important;
+  border-color: #B5CC18 !important;
+  color: #8ABC1E !important;
+}
+/* Link */
+.ui.olive.labels .label:hover,
+a.ui.olive.label:hover {
+  background-color: #a7bd0d !important;
+  border-color: #a7bd0d !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.olive.corner.label,
+.ui.olive.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.olive.ribbon.label {
+  border-color: #198f35 !important;
+}
+/* Basic */
+.ui.basic.olive.label {
+  background-color: #FFFFFF !important;
+  color: #B5CC18 !important;
+  border-color: #B5CC18 !important;
+}
+.ui.basic.olive.labels a.label:hover,
+a.ui.basic.olive.label:hover {
+  background-color: #FFFFFF !important;
+  color: #a7bd0d !important;
+  border-color: #a7bd0d !important;
+}
+/*--- Green ---*/
+.ui.green.labels .label,
+.ui.green.label {
+  background-color: #21BA45 !important;
+  border-color: #21BA45 !important;
+  color: #FFFFFF !important;
+}
+/* Link */
+.ui.green.labels .label:hover,
+a.ui.green.label:hover {
+  background-color: #16ab39 !important;
+  border-color: #16ab39 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.green.corner.label,
+.ui.green.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.green.ribbon.label {
+  border-color: #198f35 !important;
+}
+/* Basic */
+.ui.basic.green.label {
+  background-color: #FFFFFF !important;
+  color: #21BA45 !important;
+  border-color: #21BA45 !important;
+}
+.ui.basic.green.labels a.label:hover,
+a.ui.basic.green.label:hover {
+  background-color: #FFFFFF !important;
+  color: #16ab39 !important;
+  border-color: #16ab39 !important;
+}
+/*--- Teal ---*/
+.ui.teal.labels .label,
+.ui.teal.label {
+  background-color: #00B5AD !important;
+  border-color: #00B5AD !important;
+  color: #10A3A3 !important;
+}
+/* Link */
+.ui.teal.labels .label:hover,
+a.ui.teal.label:hover {
+  background-color: #009c95 !important;
+  border-color: #009c95 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.teal.corner.label,
+.ui.teal.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.teal.ribbon.label {
+  border-color: #00827c !important;
+}
+/* Basic */
+.ui.basic.teal.label {
+  background-color: #FFFFFF !important;
+  color: #00B5AD !important;
+  border-color: #00B5AD !important;
+}
+.ui.basic.teal.labels a.label:hover,
+a.ui.basic.teal.label:hover {
+  background-color: #FFFFFF !important;
+  color: #009c95 !important;
+  border-color: #009c95 !important;
+}
+/*--- Blue ---*/
+.ui.blue.labels .label,
+.ui.blue.label {
+  background-color: #2185D0 !important;
+  border-color: #2185D0 !important;
+  color: #2185D0 !important;
+}
+/* Link */
+.ui.blue.labels .label:hover,
+a.ui.blue.label:hover {
+  background-color: #1678c2 !important;
+  border-color: #1678c2 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.blue.corner.label,
+.ui.blue.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.blue.ribbon.label {
+  border-color: #1a69a4 !important;
+}
+/* Basic */
+.ui.basic.blue.label {
+  background-color: #FFFFFF !important;
+  color: #2185D0 !important;
+  border-color: #2185D0 !important;
+}
+.ui.basic.blue.labels a.label:hover,
+a.ui.basic.blue.label:hover {
+  background-color: #FFFFFF !important;
+  color: #1678c2 !important;
+  border-color: #1678c2 !important;
+}
+/*--- Violet ---*/
+.ui.violet.labels .label,
+.ui.violet.label {
+  background-color: #6435C9 !important;
+  border-color: #6435C9 !important;
+  color: #6435C9 !important;
+}
+/* Link */
+.ui.violet.labels .label:hover,
+a.ui.violet.label:hover {
+  background-color: #5829bb !important;
+  border-color: #5829bb !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.violet.corner.label,
+.ui.violet.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.violet.ribbon.label {
+  border-color: #502aa1 !important;
+}
+/* Basic */
+.ui.basic.violet.label {
+  background-color: #FFFFFF !important;
+  color: #6435C9 !important;
+  border-color: #6435C9 !important;
+}
+.ui.basic.violet.labels a.label:hover,
+a.ui.basic.violet.label:hover {
+  background-color: #FFFFFF !important;
+  color: #5829bb !important;
+  border-color: #5829bb !important;
+}
+/*--- Purple ---*/
+.ui.purple.labels .label,
+.ui.purple.label {
+  background-color: #A333C8 !important;
+  border-color: #A333C8 !important;
+  color: #A333C8 !important;
+}
+/* Link */
+.ui.purple.labels .label:hover,
+a.ui.purple.label:hover {
+  background-color: #9627ba !important;
+  border-color: #9627ba !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.purple.corner.label,
+.ui.purple.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.purple.ribbon.label {
+  border-color: #82299f !important;
+}
+/* Basic */
+.ui.basic.purple.label {
+  background-color: #FFFFFF !important;
+  color: #A333C8 !important;
+  border-color: #A333C8 !important;
+}
+.ui.basic.purple.labels a.label:hover,
+a.ui.basic.purple.label:hover {
+  background-color: #FFFFFF !important;
+  color: #9627ba !important;
+  border-color: #9627ba !important;
+}
+/*--- Pink ---*/
+.ui.pink.labels .label,
+.ui.pink.label {
+  background-color: #E03997 !important;
+  border-color: #E03997 !important;
+  color: #E03997 !important;
+}
+/* Link */
+.ui.pink.labels .label:hover,
+a.ui.pink.label:hover {
+  background-color: #e61a8d !important;
+  border-color: #e61a8d !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.pink.corner.label,
+.ui.pink.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.pink.ribbon.label {
+  border-color: #c71f7e !important;
+}
+/* Basic */
+.ui.basic.pink.label {
+  background-color: #FFFFFF !important;
+  color: #E03997 !important;
+  border-color: #E03997 !important;
+}
+.ui.basic.pink.labels a.label:hover,
+a.ui.basic.pink.label:hover {
+  background-color: #FFFFFF !important;
+  color: #e61a8d !important;
+  border-color: #e61a8d !important;
+}
+/*--- Brown ---*/
+.ui.brown.labels .label,
+.ui.brown.label {
+  background-color: #A5673F !important;
+  border-color: #A5673F !important;
+  color: #A5673F !important;
+}
+/* Link */
+.ui.brown.labels .label:hover,
+a.ui.brown.label:hover {
+  background-color: #975b33 !important;
+  border-color: #975b33 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.brown.corner.label,
+.ui.brown.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.brown.ribbon.label {
+  border-color: #805031 !important;
+}
+/* Basic */
+.ui.basic.brown.label {
+  background-color: #FFFFFF !important;
+  color: #A5673F !important;
+  border-color: #A5673F !important;
+}
+.ui.basic.brown.labels a.label:hover,
+a.ui.basic.brown.label:hover {
+  background-color: #FFFFFF !important;
+  color: #975b33 !important;
+  border-color: #975b33 !important;
+}
+/*--- Grey ---*/
+.ui.grey.labels .label,
+.ui.grey.label {
+  background-color: #767676 !important;
+  border-color: #767676 !important;
+  color: #FFFFFF !important;
+}
+/* Link */
+.ui.grey.labels .label:hover,
+a.ui.grey.label:hover {
+  background-color: #838383 !important;
+  border-color: #838383 !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.grey.corner.label,
+.ui.grey.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.grey.ribbon.label {
+  border-color: #805031 !important;
+}
+/* Basic */
+.ui.basic.grey.label {
+  background-color: #FFFFFF !important;
+  color: #767676 !important;
+  border-color: #767676 !important;
+}
+.ui.basic.grey.labels a.label:hover,
+a.ui.basic.grey.label:hover {
+  background-color: #FFFFFF !important;
+  color: #838383 !important;
+  border-color: #838383 !important;
+}
+/*--- Black ---*/
+.ui.black.labels .label,
+.ui.black.label {
+  background-color: #1B1C1D !important;
+  border-color: #1B1C1D !important;
+  color: #FFFFFF !important;
+}
+/* Link */
+.ui.black.labels .label:hover,
+a.ui.black.label:hover {
+  background-color: #27292a !important;
+  border-color: #27292a !important;
+  color: #FFFFFF !important;
+}
+/* Corner */
+.ui.black.corner.label,
+.ui.black.corner.label:hover {
+  background-color: transparent !important;
+}
+/* Ribbon */
+.ui.black.ribbon.label {
+  border-color: #805031 !important;
+}
+/* Basic */
+.ui.basic.black.label {
+  background-color: #FFFFFF !important;
+  color: #1B1C1D !important;
+  border-color: #1B1C1D !important;
+}
+.ui.basic.black.labels a.label:hover,
+a.ui.basic.black.label:hover {
+  background-color: #FFFFFF !important;
+  color: #27292a !important;
+  border-color: #27292a !important;
+}
+/*-------------------
+        Basic
+--------------------*/
+.ui.basic.label {
+  background: none transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: none;
+}
+/* Link */
+a.ui.basic.label:hover {
+  text-decoration: none;
+  background: none transparent;
+  color: #1e70bf;
+  box-shadow: none;
+}
+/* Pointing */
+.ui.basic.pointing.label:before {
+  border-color: inherit;
+}
+/*-------------------
+       Fluid
+--------------------*/
+.ui.label.fluid,
+.ui.fluid.labels > .label {
+  width: 100%;
+  box-sizing: border-box;
+}
+/*-------------------
+       Inverted
+--------------------*/
+.ui.inverted.labels .label,
+.ui.inverted.label {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+/*-------------------
+     Horizontal
+--------------------*/
+.ui.horizontal.labels .label,
+.ui.horizontal.label {
+  margin: 0em 0.5em 0em 0em;
+  padding: 0.4em 1em;
+  min-width: 3em;
+  text-align: center;
+}
+/*-------------------
+       Circular
+--------------------*/
+.ui.circular.labels .label,
+.ui.circular.label {
+  min-width: 2em;
+  min-height: 2em;
+  padding: 2em !important;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem;
+}
+.ui.empty.circular.labels .label,
+.ui.empty.circular.label {
+  min-width: 0em;
+  min-height: 0em;
+  overflow: hidden;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: baseline;
+}
+/*-------------------
+       Pointing
+--------------------*/
+.ui.pointing.label {
+  position: relative;
+}
+.ui.attached.pointing.label {
+  position: absolute;
+}
+.ui.pointing.label:before {
+  background-color: inherit;
+  background-image: inherit;
+  border-width: none;
+  border-style: solid;
+  border-color: inherit;
+}
+/* Arrow */
+.ui.pointing.label:before {
+  position: absolute;
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-image: none;
+  z-index: 2;
+  width: 0.6666em;
+  height: 0.6666em;
+  transition: background 0.1s ease;
+}
+/*--- Above ---*/
+.ui.pointing.label,
+.ui[class*="pointing above"].label {
+  margin-top: 1em;
+}
+.ui.pointing.label:before,
+.ui[class*="pointing above"].label:before {
+  border-width: 1px 0px 0px 1px;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  top: 0%;
+  left: 50%;
+}
+/*--- Below ---*/
+.ui[class*="bottom pointing"].label,
+.ui[class*="pointing below"].label {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+.ui[class*="bottom pointing"].label:before,
+.ui[class*="pointing below"].label:before {
+  border-width: 0px 1px 1px 0px;
+  top: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  top: 100%;
+  left: 50%;
+}
+/*--- Left ---*/
+.ui[class*="left pointing"].label {
+  margin-top: 0em;
+  margin-left: 0.6666em;
+}
+.ui[class*="left pointing"].label:before {
+  border-width: 0px 0px 1px 1px;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  bottom: auto;
+  right: auto;
+  top: 50%;
+  left: 0em;
+}
+/*--- Right ---*/
+.ui[class*="right pointing"].label {
+  margin-top: 0em;
+  margin-right: 0.6666em;
+}
+.ui[class*="right pointing"].label:before {
+  border-width: 1px 1px 0px 0px;
+  -webkit-transform: translateX(50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(50%) translateY(-50%) rotate(45deg);
+  transform: translateX(50%) translateY(-50%) rotate(45deg);
+  top: 50%;
+  right: 0%;
+  bottom: auto;
+  left: auto;
+}
+/* Basic Pointing */
+/*--- Above ---*/
+.ui.basic.pointing.label:before,
+.ui.basic[class*="pointing above"].label:before {
+  margin-top: -1px;
+}
+/*--- Below ---*/
+.ui.basic[class*="bottom pointing"].label:before,
+.ui.basic[class*="pointing below"].label:before {
+  bottom: auto;
+  top: 100%;
+  margin-top: 1px;
+}
+/*--- Left ---*/
+.ui.basic[class*="left pointing"].label:before {
+  top: 50%;
+  left: -1px;
+}
+/*--- Right ---*/
+.ui.basic[class*="right pointing"].label:before {
+  top: 50%;
+  right: -1px;
+}
+/*------------------
+   Floating Label
+-------------------*/
+.ui.floating.label {
+  position: absolute;
+  z-index: 100;
+  top: -1em;
+  left: 100%;
+  margin: 0em 0em 0em -1.5em !important;
+}
+/*-------------------
+        Sizes
+--------------------*/
+.ui.mini.labels .label,
+.ui.mini.label {
+  font-size: 0.8125rem;
+}
+.ui.tiny.labels .label,
+.ui.tiny.label {
+  font-size: 0.875rem;
+}
+.ui.small.labels .label,
+.ui.small.label {
+  font-size: 0.6875rem;
+}
+.ui.labels .label,
+.ui.label {
+  font-size: 1rem;
+}
+.ui.large.labels .label,
+.ui.large.label {
+  font-size: 1.125rem;
+}
+.ui.big.labels .label,
+.ui.big.label {
+  font-size: 1.3125rem;
+}
+.ui.huge.labels .label,
+.ui.huge.label {
+  font-size: 1.4375rem;
+}
+.ui.massive.labels .label,
+.ui.massive.label {
+  font-size: 1.6875rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Segment
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+            Segment
+*******************************/
+/*-------------------
+       Element
+--------------------*/
+/*-------------------
+       Group
+--------------------*/
+/*-------------------
+       Coupling
+--------------------*/
+/* Page Grid Segment */
+/*******************************
+            States
+*******************************/
+/* Loading Dimmer */
+/* Loading Spinner */
+/*******************************
+            Variations
+*******************************/
+/* Piled */
+/* Circular */
+/* Stacked */
+/* Raised */
+/* Padded */
+/* Attached */
+/* Inverted */
+/* Floated */
+/* Basic */
+/* Colors */
+/* Ordinality */
+/* Packaged Theme */
+/*******************************
+            Segment
+*******************************/
+/*-------------------
+       Element
+--------------------*/
+/*-------------------
+       Group
+--------------------*/
+/*-------------------
+       Coupling
+--------------------*/
+/* Page Grid Segment */
+/*******************************
+            States
+*******************************/
+/* Loading Dimmer */
+/* Loading Spinner */
+/*******************************
+            Variations
+*******************************/
+/* Piled */
+/* Circular */
+/* Stacked */
+/* Raised */
+/* Padded */
+/* Attached */
+/* Inverted */
+/* Floated */
+/* Basic */
+/* Colors */
+/* Ordinality */
+/* Site Theme */
+/*******************************
+    User Variable Overrides
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+            Segment
+*******************************/
+.ui.segment {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  margin: 1rem 0em;
+  padding: 1em 1em;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+.ui.segment:first-child {
+  margin-top: 0em;
+}
+.ui.segment:last-child {
+  margin-bottom: 0em;
+}
+/* Vertical */
+.ui.vertical.segment {
+  margin: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  background: none transparent;
+  border-radius: 0px;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+.ui.vertical.segment:last-child {
+  border-bottom: none;
+}
+/*-------------------
+    Loose Coupling
+--------------------*/
+/* Header */
+.ui.inverted.segment > .ui.header {
+  color: #FFFFFF;
+}
+/* Label */
+.ui[class*="bottom attached"].segment > [class*="top attached"].label {
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+.ui[class*="top attached"].segment > [class*="bottom attached"].label {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+.ui.attached.segment:not(.top):not(.bottom) > [class*="top attached"].label {
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+.ui.attached.segment:not(.top):not(.bottom) > [class*="bottom attached"].label {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+/* Grid */
+.ui.page.grid.segment,
+.ui.grid > .row > .ui.segment.column,
+.ui.grid > .ui.segment.column {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.ui.grid.segment {
+  margin: 1rem 0em;
+  border-radius: 0.25rem;
+}
+/* Table */
+.ui.basic.table.segment {
+  background: #FFFFFF;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+}
+.ui[class*="very basic"].table.segment {
+  padding: 1em 1em;
+}
+/*******************************
+             Types
+*******************************/
+/*-------------------
+        Piled
+--------------------*/
+.ui.piled.segments,
+.ui.piled.segment {
+  margin: 3em 0em;
+  box-shadow: '';
+  z-index: auto;
+}
+.ui.piled.segment:first-child {
+  margin-top: 0em;
+}
+.ui.piled.segment:last-child {
+  margin-bottom: 0em;
+}
+.ui.piled.segments:after,
+.ui.piled.segments:before,
+.ui.piled.segment:after,
+.ui.piled.segment:before {
+  background-color: #FFFFFF;
+  visibility: visible;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: '';
+}
+.ui.piled.segments:before,
+.ui.piled.segment:before {
+  -webkit-transform: rotate(-1.2deg);
+  -ms-transform: rotate(-1.2deg);
+  transform: rotate(-1.2deg);
+  top: 0;
+  z-index: -2;
+}
+.ui.piled.segments:after,
+.ui.piled.segment:after {
+  -webkit-transform: rotate(1.2deg);
+  -ms-transform: rotate(1.2deg);
+  transform: rotate(1.2deg);
+  top: 0;
+  z-index: -1;
+}
+/* Piled Attached */
+.ui[class*="top attached"].piled.segment {
+  margin-top: 3em;
+  margin-bottom: 0em;
+}
+.ui.piled.segment[class*="top attached"]:first-child {
+  margin-top: 0em;
+}
+.ui.piled.segment[class*="bottom attached"] {
+  margin-top: 0em;
+  margin-bottom: 3em;
+}
+.ui.piled.segment[class*="bottom attached"]:last-child {
+  margin-bottom: 0em;
+}
+/*-------------------
+       Stacked
+--------------------*/
+.ui.stacked.segment {
+  padding-bottom: 1.4em;
+}
+.ui.stacked.segments:before,
+.ui.stacked.segments:after,
+.ui.stacked.segment:before,
+.ui.stacked.segment:after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0%;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  height: 6px;
+  visibility: visible;
+}
+.ui.stacked.segments:before,
+.ui.stacked.segment:before {
+  display: none;
+}
+/* Add additional page */
+.ui.tall.stacked.segments:before,
+.ui.tall.stacked.segment:before {
+  display: block;
+  bottom: 0px;
+}
+/* Inverted */
+.ui.stacked.inverted.segments:before,
+.ui.stacked.inverted.segments:after,
+.ui.stacked.inverted.segment:before,
+.ui.stacked.inverted.segment:after {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(34, 36, 38, 0.35);
+}
+/*-------------------
+       Padded
+--------------------*/
+.ui.padded.segment {
+  padding: 1.5em;
+}
+.ui[class*="very padded"].segment {
+  padding: 3em;
+}
+/* Padded vertical */
+.ui.padded.segment.vertical.segment,
+.ui[class*="very padded"].vertical.segment {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*-------------------
+       Compact
+--------------------*/
+.ui.compact.segment {
+  display: table;
+}
+/* Compact Group */
+.ui.compact.segments {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.ui.compact.segments .segment,
+.ui.segments .compact.segment {
+  display: block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+/*-------------------
+       Circular
+--------------------*/
+.ui.circular.segment {
+  display: table-cell;
+  padding: 2em;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 500em;
+}
+/*-------------------
+       Raised
+--------------------*/
+.ui.raised.segments,
+.ui.raised.segment {
+  box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+}
+/*******************************
+            Groups
+*******************************/
+/* Group */
+.ui.segments {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem 0em;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border-radius: 0.25rem;
+}
+.ui.segments:first-child {
+  margin-top: 0em;
+}
+.ui.segments:last-child {
+  margin-bottom: 0em;
+}
+/* Nested Segment */
+.ui.segments > .segment {
+  top: 0px;
+  bottom: 0px;
+  border-radius: 0px;
+  margin: 0em;
+  width: auto;
+  box-shadow: none;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+.ui.segments:not(.horizontal) > .segment:first-child {
+  border-top: none;
+  margin-top: 0em;
+  bottom: 0px;
+  margin-bottom: 0em;
+  top: 0px;
+  border-radius: 0.25rem 0.25rem 0em 0em;
+}
+/* Bottom */
+.ui.segments:not(.horizontal) > .segment:last-child {
+  top: 0px;
+  bottom: 0px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  border-radius: 0em 0em 0.25rem 0.25rem;
+}
+/* Only */
+.ui.segments:not(.horizontal) > .segment:only-child {
+  border-radius: 0.25rem;
+}
+/* Nested Group */
+.ui.segments > .ui.segments {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  margin: 1rem 1rem;
+}
+.ui.segments > .segments:first-child {
+  border-top: none;
+}
+.ui.segments > .segment + .segments:not(.horizontal) {
+  margin-top: 0em;
+}
+/* Horizontal Group */
+.ui.horizontal.segments {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 0em;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  margin: 1rem 0em;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+/* Nested Horizontal Group */
+.ui.segments > .horizontal.segments {
+  margin: 0em;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+/* Horizontal Segment */
+.ui.horizontal.segments > .segment {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -ms-flex: 1 1 0px;
+  /* Solves #2550 MS Flex */
+  margin: 0em;
+  min-width: 0px;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  border-left: 1px solid rgba(34, 36, 38, 0.15);
+}
+/* Border Fixes */
+.ui.segments > .horizontal.segments:first-child {
+  border-top: none;
+}
+.ui.horizontal.segments > .segment:first-child {
+  border-left: none;
+}
+/*******************************
+            States
+*******************************/
+/*--------------
+    Disabled
+---------------*/
+.ui.disabled.segment {
+  opacity: 0.45;
+  color: rgba(40, 40, 40, 0.3);
+}
+/*--------------
+    Loading
+---------------*/
+.ui.loading.segment {
+  position: relative;
+  cursor: default;
+  pointer-events: none;
+  text-shadow: none !important;
+  color: transparent !important;
+  transition: all 0s linear;
+}
+.ui.loading.segment:before {
+  position: absolute;
+  content: '';
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+  z-index: 100;
+}
+.ui.loading.segment:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  margin: -0.65625em 0em 0em -0.65625em;
+  width: 1.3125em;
+  height: 1.3125em;
+  -webkit-animation: segment-spin 0.6s linear;
+  animation: segment-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  border-radius: 500rem;
+  border-color: #767676 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 0.2em;
+  box-shadow: 0px 0px 0px 1px transparent;
+  visibility: visible;
+  z-index: 101;
+}
+@-webkit-keyframes segment-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes segment-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*******************************
+           Variations
+*******************************/
+/*-------------------
+       Basic
+--------------------*/
+.ui.basic.segment {
+  background: none transparent;
+  box-shadow: none;
+  border: none;
+  border-radius: 0px;
+}
+/*-------------------
+       Clearing
+--------------------*/
+.ui.clearing.segment:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/*-------------------
+       Colors
+--------------------*/
+/* Red */
+.ui.red.segment:not(.inverted) {
+  border-top: 2px solid #DB2828;
+}
+.ui.inverted.red.segment {
+  background-color: #DB2828 !important;
+  color: #FFFFFF !important;
+}
+/* Orange */
+.ui.orange.segment:not(.inverted) {
+  border-top: 2px solid #F2711C;
+}
+.ui.inverted.orange.segment {
+  background-color: #F2711C !important;
+  color: #FFFFFF !important;
+}
+/* Yellow */
+.ui.yellow.segment:not(.inverted) {
+  border-top: 2px solid #FBBD08;
+}
+.ui.inverted.yellow.segment {
+  background-color: #FBBD08 !important;
+  color: #FFFFFF !important;
+}
+/* Olive */
+.ui.olive.segment:not(.inverted) {
+  border-top: 2px solid #B5CC18;
+}
+.ui.inverted.olive.segment {
+  background-color: #B5CC18 !important;
+  color: #FFFFFF !important;
+}
+/* Green */
+.ui.green.segment:not(.inverted) {
+  border-top: 2px solid #21BA45;
+}
+.ui.inverted.green.segment {
+  background-color: #21BA45 !important;
+  color: #FFFFFF !important;
+}
+/* Teal */
+.ui.teal.segment:not(.inverted) {
+  border-top: 2px solid #00B5AD;
+}
+.ui.inverted.teal.segment {
+  background-color: #00B5AD !important;
+  color: #FFFFFF !important;
+}
+/* Blue */
+.ui.blue.segment:not(.inverted) {
+  border-top: 2px solid #2185D0;
+}
+.ui.inverted.blue.segment {
+  background-color: #2185D0 !important;
+  color: #FFFFFF !important;
+}
+/* Violet */
+.ui.violet.segment:not(.inverted) {
+  border-top: 2px solid #6435C9;
+}
+.ui.inverted.violet.segment {
+  background-color: #6435C9 !important;
+  color: #FFFFFF !important;
+}
+/* Purple */
+.ui.purple.segment:not(.inverted) {
+  border-top: 2px solid #A333C8;
+}
+.ui.inverted.purple.segment {
+  background-color: #A333C8 !important;
+  color: #FFFFFF !important;
+}
+/* Pink */
+.ui.pink.segment:not(.inverted) {
+  border-top: 2px solid #E03997;
+}
+.ui.inverted.pink.segment {
+  background-color: #E03997 !important;
+  color: #FFFFFF !important;
+}
+/* Brown */
+.ui.brown.segment:not(.inverted) {
+  border-top: 2px solid #A5673F;
+}
+.ui.inverted.brown.segment {
+  background-color: #A5673F !important;
+  color: #FFFFFF !important;
+}
+/* Grey */
+.ui.grey.segment:not(.inverted) {
+  border-top: 2px solid #767676;
+}
+.ui.inverted.grey.segment {
+  background-color: #767676 !important;
+  color: #FFFFFF !important;
+}
+/* Black */
+.ui.black.segment:not(.inverted) {
+  border-top: 2px solid #1B1C1D;
+}
+.ui.inverted.black.segment {
+  background-color: #1B1C1D !important;
+  color: #FFFFFF !important;
+}
+/*-------------------
+       Aligned
+--------------------*/
+.ui[class*="left aligned"].segment {
+  text-align: left;
+}
+.ui[class*="right aligned"].segment {
+  text-align: right;
+}
+.ui[class*="center aligned"].segment {
+  text-align: center;
+}
+/*-------------------
+       Floated
+--------------------*/
+.ui.floated.segment,
+.ui[class*="left floated"].segment {
+  float: left;
+  margin-right: 1em;
+}
+.ui[class*="right floated"].segment {
+  float: right;
+  margin-left: 1em;
+}
+/*-------------------
+      Inverted
+--------------------*/
+.ui.inverted.segment {
+  border: none;
+  box-shadow: none;
+}
+.ui.inverted.segment,
+.ui.primary.inverted.segment {
+  background: #1B1C1D;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* Nested */
+.ui.inverted.segment .segment {
+  color: rgba(0, 0, 0, 0.87);
+}
+.ui.inverted.segment .inverted.segment {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* Attached */
+.ui.inverted.attached.segment {
+  border-color: #555555;
+}
+/*-------------------
+     Emphasis
+--------------------*/
+/* Secondary */
+.ui.secondary.segment {
+  background: #F3F4F5;
+  color: #1B1C1D;
+}
+.ui.secondary.inverted.segment {
+  background: #4c4f52 linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  color: rgba(255, 255, 255, 0.8);
+}
+/* Tertiary */
+.ui.tertiary.segment {
+  background: #DCDDDE;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ui.tertiary.inverted.segment {
+  background: #717579 linear-gradient(rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%);
+  color: rgba(255, 255, 255, 0.8);
+}
+/*-------------------
+      Attached
+--------------------*/
+/* Middle */
+.ui.attached.segment {
+  top: 0px;
+  bottom: 0px;
+  border-radius: 0px;
+  margin: 0em -1px;
+  width: calc(100% +  2px );
+  max-width: calc(100% +  2px );
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+}
+.ui.attached:not(.message) + .ui.attached.segment:not(.top) {
+  border-top: none;
+}
+/* Top */
+.ui[class*="top attached"].segment {
+  bottom: 0px;
+  margin-bottom: 0em;
+  top: 0px;
+  margin-top: 1rem;
+  border-radius: 0.25rem 0.25rem 0em 0em;
+}
+.ui.segment[class*="top attached"]:first-child {
+  margin-top: 0em;
+}
+/* Bottom */
+.ui.segment[class*="bottom attached"] {
+  bottom: 0px;
+  margin-top: 0em;
+  top: 0px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  border-radius: 0em 0em 0.25rem 0.25rem;
+}
+.ui.segment[class*="bottom attached"]:last-child {
+  margin-bottom: 0em;
+}
+/*-------------------
+        Size
+--------------------*/
+.ui.mini.segments .segment,
+.ui.mini.segment {
+  font-size: 0.8125rem;
+}
+.ui.tiny.segments .segment,
+.ui.tiny.segment {
+  font-size: 0.875rem;
+}
+.ui.small.segments .segment,
+.ui.small.segment {
+  font-size: 0.6875rem;
+}
+.ui.segments .segment,
+.ui.segment {
+  font-size: 1rem;
+}
+.ui.large.segments .segment,
+.ui.large.segment {
+  font-size: 1.125rem;
+}
+.ui.big.segments .segment,
+.ui.big.segment {
+  font-size: 1.3125rem;
+}
+.ui.huge.segments .segment,
+.ui.huge.segment {
+  font-size: 1.4375rem;
+}
+.ui.massive.segments .segment,
+.ui.massive.segment {
+  font-size: 1.6875rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*!
+ * # Semantic UI - Checkbox
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+/*******************************
+            Theme
+*******************************/
+/*
+
+████████╗██╗  ██╗███████╗███╗   ███╗███████╗███████╗
+╚══██╔══╝██║  ██║██╔════╝████╗ ████║██╔════╝██╔════╝
+   ██║   ███████║█████╗  ██╔████╔██║█████╗  ███████╗
+   ██║   ██╔══██║██╔══╝  ██║╚██╔╝██║██╔══╝  ╚════██║
+   ██║   ██║  ██║███████╗██║ ╚═╝ ██║███████╗███████║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+*/
+/*******************************
+        Theme Selection
+*******************************/
+/* To override a theme for an individual element
+   specify theme name below
+*/
+/* Global */
+/* Elements */
+/* Collections */
+/* Modules */
+/* Views */
+/*******************************
+            Folders
+*******************************/
+/* Path to theme packages */
+/* Path to site override folder */
+/*******************************
+         Import Theme
+*******************************/
+/*******************************
+        Import Directives
+*******************************/
+/*------------------ 
+       Theme
+-------------------*/
+/*--------------------
+   Site Variables
+---------------------*/
+/* Default site.variables */
+/*******************************
+         Site Settings
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+/*-------------------
+      Base Sizes
+--------------------*/
+/* This is the single variable that controls them all */
+/* The size of page text  */
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+/*-------------------
+    Brand Colors
+--------------------*/
+/*--------------
+  Page Heading
+---------------*/
+/*--------------
+   Form Input
+---------------*/
+/* This adjusts the default form input across all elements */
+/* Input Text Color */
+/* Line Height Default For Inputs in Browser (Descendors are 17px at 14px base em) */
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+/* Used on dropdowns, other larger blocks */
+/*-------------------
+        Sizes
+--------------------*/
+/*
+  Sizes are all expressed in terms of 14px/em (default em)
+  This ensures these "ratios" remain constant despite changes in EM
+*/
+/*-------------------
+        Page
+--------------------*/
+/*-------------------
+      Paragraph
+--------------------*/
+/*-------------------
+       Links
+--------------------*/
+/*-------------------
+  Highlighted Text
+--------------------*/
+/*-------------------
+       Loader
+--------------------*/
+/*-------------------
+        Grid
+--------------------*/
+/*-------------------
+     Transitions
+--------------------*/
+/*-------------------
+     Breakpoints
+--------------------*/
+/*-------------------
+      Site Colors
+--------------------*/
+/*---  Colors  ---*/
+/*---  Light Colors  ---*/
+/*---   Neutrals  ---*/
+/*--- Colored Backgrounds ---*/
+/*--- Colored Headers ---*/
+/*--- Colored Text ---*/
+/*--- Colored Border ---*/
+/*-------------------
+     Alpha Colors
+--------------------*/
+/*-------------------
+       Accents
+--------------------*/
+/* Differentiating Neutrals */
+/* Differentiating Layers */
+/*******************************
+           Power-User
+*******************************/
+/*-------------------
+    Emotive Colors
+--------------------*/
+/* Positive */
+/* Negative */
+/* Info */
+/* Warning */
+/*-------------------
+        Paths
+--------------------*/
+/* For source only. Modified in gulp for dist */
+/*-------------------
+       Em Sizes
+--------------------*/
+/*
+  This rounds @size values to the closest pixel then expresses that value in (r)em.
+  This ensures all size values round to exact pixels
+*/
+/* em */
+/* rem */
+/*-------------------
+       Icons
+--------------------*/
+/* Maximum Glyph Width of Icon */
+/*-------------------
+     Neutral Text
+--------------------*/
+/*-------------------
+     Brand Colors
+--------------------*/
+/*-------------------
+      Borders
+--------------------*/
+/*-------------------
+    Derived Values
+--------------------*/
+/* Loaders Position Offset */
+/* Rendered Scrollbar Width */
+/* Maximum Single Character Glyph Width, aka Capital "W" */
+/* Used to match floats with text */
+/* Header Spacing */
+/* Minimum Mobile Width */
+/* Positive / Negative Dupes */
+/* Responsive */
+/*-------------------
+  Exact Pixel Values
+--------------------*/
+/*
+  These are used to specify exact pixel values in em
+  for things like borders that remain constantly
+  sized as emSize adjusts
+
+  Since there are many more sizes than names for sizes,
+  these are named by their original pixel values.
+
+*/
+/* Columns */
+/*******************************
+             States
+*******************************/
+/*-------------------
+      Disabled
+--------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Shadows  ---*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Focus
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+    Down (:active)
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/*-------------------
+        Active
+--------------------*/
+/*---  Colors  ---*/
+/*---  Emotive  ---*/
+/*---  Brand   ---*/
+/*---  Dark Tones  ---*/
+/*---  Light Tones  ---*/
+/* Packaged site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Component's site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/* Site theme site.variables */
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+ Component Variables
+---------------------*/
+/* Default */
+/*******************************
+            Checkbox
+*******************************/
+/* Label */
+/* 26px @ 14/em */
+/* Checkbox */
+/* Checkmark */
+/* Label */
+/*-------------------
+        States
+--------------------*/
+/* Hover */
+/* Pressed */
+/* Focus */
+/* Active */
+/* Active Focus */
+/* Indeterminate */
+/* Disabled */
+/*-------------------
+        Types
+--------------------*/
+/* Radio */
+/* Uses px to avoid rounding issues with circles */
+/* 7px as unitless value from radio size */
+/* Slider & Toggle Handle */
+/* Slider */
+/* Slider States */
+/* Toggle */
+/*-------------------
+      Variations
+--------------------*/
+/* Packaged Theme */
+/* Site Theme */
+/*******************************
+    User Variable Overrides
+*******************************/
+/*******************************
+             Mix-ins
+*******************************/
+/*------------------
+       Fonts
+-------------------*/
+/*------------------
+     Overrides
+-------------------*/
+/* End Config */
+/*******************************
+           Checkbox
+*******************************/
+/*--------------
+    Content
+---------------*/
+.ui.checkbox {
+  position: relative;
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: none;
+  vertical-align: baseline;
+  font-style: normal;
+  min-height: 17px;
+  font-size: 1rem;
+  line-height: 17px;
+  min-width: 17px;
+}
+/* HTML Checkbox */
+.ui.checkbox input[type="checkbox"],
+.ui.checkbox input[type="radio"] {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0 !important;
+  outline: none;
+  z-index: 3;
+  width: 17px;
+  height: 17px;
+}
+/*--------------
+      Box
+---------------*/
+.ui.checkbox .box,
+.ui.checkbox label {
+  cursor: auto;
+  position: relative;
+  display: block;
+  padding-left: 1.85714em;
+  outline: none;
+  font-size: 1em;
+}
+.ui.checkbox .box:before,
+.ui.checkbox label:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  content: '';
+  background: #FFFFFF;
+  border-radius: 0.1875rem;
+  transition: border 0.1s ease, opacity 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+  transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  border: 1px solid #D4D4D5;
+}
+/*--------------
+    Checkmark
+---------------*/
+.ui.checkbox .box:after,
+.ui.checkbox label:after {
+  position: absolute;
+  font-size: 14px;
+  top: 0px;
+  left: 0px;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  opacity: 0;
+  color: rgba(0, 0, 0, 0.87);
+  transition: border 0.1s ease, opacity 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+  transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+  transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
+}
+/*--------------
+      Label
+---------------*/
+/* Inside */
+.ui.checkbox label,
+.ui.checkbox + label {
+  color: rgba(0, 0, 0, 0.87);
+  transition: color 0.1s ease;
+}
+/* Outside */
+.ui.checkbox + label {
+  vertical-align: middle;
+}
+/*******************************
+           States
+*******************************/
+/*--------------
+      Hover
+---------------*/
+.ui.checkbox .box:hover::before,
+.ui.checkbox label:hover::before {
+  background: #FFFFFF;
+  border-color: rgba(34, 36, 38, 0.35);
+}
+.ui.checkbox label:hover,
+.ui.checkbox + label:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+/*--------------
+      Down
+---------------*/
+.ui.checkbox .box:active::before,
+.ui.checkbox label:active::before {
+  background: #F9FAFB;
+  border-color: rgba(34, 36, 38, 0.35);
+}
+.ui.checkbox .box:active::after,
+.ui.checkbox label:active::after {
+  color: rgba(0, 0, 0, 0.95);
+}
+.ui.checkbox input:active ~ label {
+  color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+     Focus
+---------------*/
+.ui.checkbox input:focus ~ .box:before,
+.ui.checkbox input:focus ~ label:before {
+  background: #FFFFFF;
+  border-color: #96C8DA;
+}
+.ui.checkbox input:focus ~ .box:after,
+.ui.checkbox input:focus ~ label:after {
+  color: rgba(0, 0, 0, 0.95);
+}
+.ui.checkbox input:focus ~ label {
+  color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+     Active
+---------------*/
+.ui.checkbox input:checked ~ .box:before,
+.ui.checkbox input:checked ~ label:before {
+  background: #FFFFFF;
+  border-color: rgba(34, 36, 38, 0.35);
+}
+.ui.checkbox input:checked ~ .box:after,
+.ui.checkbox input:checked ~ label:after {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+  Indeterminate
+---------------*/
+.ui.checkbox input:not([type=radio]):indeterminate ~ .box:before,
+.ui.checkbox input:not([type=radio]):indeterminate ~ label:before {
+  background: #FFFFFF;
+  border-color: rgba(34, 36, 38, 0.35);
+}
+.ui.checkbox input:not([type=radio]):indeterminate ~ .box:after,
+.ui.checkbox input:not([type=radio]):indeterminate ~ label:after {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+  Active Focus
+---------------*/
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:before,
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:before,
+.ui.checkbox input:checked:focus ~ .box:before,
+.ui.checkbox input:checked:focus ~ label:before {
+  background: #FFFFFF;
+  border-color: #96C8DA;
+}
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:after,
+.ui.checkbox input:checked:focus ~ .box:after,
+.ui.checkbox input:checked:focus ~ label:after {
+  color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+    Read-Only
+---------------*/
+.ui.read-only.checkbox,
+.ui.read-only.checkbox label {
+  cursor: default;
+}
+/*--------------
+     Disabled
+---------------*/
+.ui.disabled.checkbox .box:after,
+.ui.disabled.checkbox label,
+.ui.checkbox input[disabled] ~ .box:after,
+.ui.checkbox input[disabled] ~ label {
+  cursor: default !important;
+  opacity: 0.5;
+  color: #000000;
+}
+/*--------------
+     Hidden
+---------------*/
+/* Initialized checkbox moves input below element
+ to prevent manually triggering */
+.ui.checkbox input.hidden {
+  z-index: -1;
+}
+/* Selectable Label */
+.ui.checkbox input.hidden + label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*******************************
+             Types
+*******************************/
+/*--------------
+     Radio
+---------------*/
+.ui.radio.checkbox {
+  min-height: 15px;
+}
+.ui.radio.checkbox .box,
+.ui.radio.checkbox label {
+  padding-left: 1.85714em;
+}
+/* Box */
+.ui.radio.checkbox .box:before,
+.ui.radio.checkbox label:before {
+  content: '';
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 500rem;
+  top: 1px;
+  left: 0px;
+}
+/* Bullet */
+.ui.radio.checkbox .box:after,
+.ui.radio.checkbox label:after {
+  border: none;
+  content: '' !important;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+}
+/* Radio Checkbox */
+.ui.radio.checkbox .box:after,
+.ui.radio.checkbox label:after {
+  top: 1px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  border-radius: 500rem;
+  -webkit-transform: scale(0.46666667);
+  -ms-transform: scale(0.46666667);
+  transform: scale(0.46666667);
+  background-color: rgba(0, 0, 0, 0.87);
+}
+/* Focus */
+.ui.radio.checkbox input:focus ~ .box:before,
+.ui.radio.checkbox input:focus ~ label:before {
+  background-color: #FFFFFF;
+}
+.ui.radio.checkbox input:focus ~ .box:after,
+.ui.radio.checkbox input:focus ~ label:after {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+/* Indeterminate */
+.ui.radio.checkbox input:indeterminate ~ .box:after,
+.ui.radio.checkbox input:indeterminate ~ label:after {
+  opacity: 0;
+}
+/* Active */
+.ui.radio.checkbox input:checked ~ .box:before,
+.ui.radio.checkbox input:checked ~ label:before {
+  background-color: #FFFFFF;
+}
+.ui.radio.checkbox input:checked ~ .box:after,
+.ui.radio.checkbox input:checked ~ label:after {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+/* Active Focus */
+.ui.radio.checkbox input:focus:checked ~ .box:before,
+.ui.radio.checkbox input:focus:checked ~ label:before {
+  background-color: #FFFFFF;
+}
+.ui.radio.checkbox input:focus:checked ~ .box:after,
+.ui.radio.checkbox input:focus:checked ~ label:after {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+/*--------------
+     Slider
+---------------*/
+.ui.slider.checkbox {
+  min-height: 1.25rem;
+}
+/* Input */
+.ui.slider.checkbox input {
+  width: 3.5rem;
+  height: 1.25rem;
+}
+/* Label */
+.ui.slider.checkbox .box,
+.ui.slider.checkbox label {
+  padding-left: 4.5rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* Line */
+.ui.slider.checkbox .box:before,
+.ui.slider.checkbox label:before {
+  display: block;
+  position: absolute;
+  content: '';
+  border: none !important;
+  left: 0em;
+  z-index: 1;
+  top: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 3.5rem;
+  height: 0.1875rem;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  border-radius: 500rem;
+  transition: background 0.3s ease;
+}
+/* Handle */
+.ui.slider.checkbox .box:after,
+.ui.slider.checkbox label:after {
+  background: #FFFFFF linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  position: absolute;
+  content: '' !important;
+  opacity: 1;
+  z-index: 2;
+  border: none;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: -0.25rem;
+  left: 0em;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  border-radius: 500rem;
+  transition: left 0.3s ease;
+}
+/* Focus */
+.ui.slider.checkbox input:focus ~ .box:before,
+.ui.slider.checkbox input:focus ~ label:before {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+}
+/* Hover */
+.ui.slider.checkbox .box:hover,
+.ui.slider.checkbox label:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.slider.checkbox .box:hover::before,
+.ui.slider.checkbox label:hover::before {
+  background: rgba(0, 0, 0, 0.15);
+}
+/* Active */
+.ui.slider.checkbox input:checked ~ .box,
+.ui.slider.checkbox input:checked ~ label {
+  color: rgba(0, 0, 0, 0.95) !important;
+}
+.ui.slider.checkbox input:checked ~ .box:before,
+.ui.slider.checkbox input:checked ~ label:before {
+  background-color: #545454 !important;
+}
+.ui.slider.checkbox input:checked ~ .box:after,
+.ui.slider.checkbox input:checked ~ label:after {
+  left: 2rem;
+}
+/* Active Focus */
+.ui.slider.checkbox input:focus:checked ~ .box,
+.ui.slider.checkbox input:focus:checked ~ label {
+  color: rgba(0, 0, 0, 0.95) !important;
+}
+.ui.slider.checkbox input:focus:checked ~ .box:before,
+.ui.slider.checkbox input:focus:checked ~ label:before {
+  background-color: #000000 !important;
+}
+/*--------------
+     Toggle
+---------------*/
+.ui.toggle.checkbox {
+  min-height: 1.5rem;
+}
+/* Input */
+.ui.toggle.checkbox input {
+  width: 3.5rem;
+  height: 1.5rem;
+}
+/* Label */
+.ui.toggle.checkbox .box,
+.ui.toggle.checkbox label {
+  min-height: 1.5rem;
+  padding-left: 4.5rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.ui.toggle.checkbox label {
+  padding-top: 0.15em;
+}
+/* Switch */
+.ui.toggle.checkbox .box:before,
+.ui.toggle.checkbox label:before {
+  display: block;
+  position: absolute;
+  content: '';
+  z-index: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  border: none;
+  top: 0rem;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+  width: 3.5rem;
+  height: 1.5rem;
+  border-radius: 500rem;
+}
+/* Handle */
+.ui.toggle.checkbox .box:after,
+.ui.toggle.checkbox label:after {
+  background: #FFFFFF linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  position: absolute;
+  content: '' !important;
+  opacity: 1;
+  z-index: 2;
+  border: none;
+  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0rem;
+  left: 0em;
+  border-radius: 500rem;
+  transition: background 0.3s ease, left 0.3s ease;
+}
+.ui.toggle.checkbox input ~ .box:after,
+.ui.toggle.checkbox input ~ label:after {
+  left: -0.05rem;
+  box-shadow: none;
+}
+/* Focus */
+.ui.toggle.checkbox input:focus ~ .box:before,
+.ui.toggle.checkbox input:focus ~ label:before {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+}
+/* Hover */
+.ui.toggle.checkbox .box:hover::before,
+.ui.toggle.checkbox label:hover::before {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: none;
+}
+/* Active */
+.ui.toggle.checkbox input:checked ~ .box,
+.ui.toggle.checkbox input:checked ~ label {
+  color: rgba(0, 0, 0, 0.95) !important;
+}
+.ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input:checked ~ label:before {
+  background-color: #2185D0 !important;
+}
+.ui.toggle.checkbox input:checked ~ .box:after,
+.ui.toggle.checkbox input:checked ~ label:after {
+  left: 2.15rem;
+  box-shadow: none;
+}
+/* Active Focus */
+.ui.toggle.checkbox input:focus:checked ~ .box,
+.ui.toggle.checkbox input:focus:checked ~ label {
+  color: rgba(0, 0, 0, 0.95) !important;
+}
+.ui.toggle.checkbox input:focus:checked ~ .box:before,
+.ui.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: #0d71bb !important;
+}
+/*******************************
+            Variations
+*******************************/
+/*--------------
+     Fitted
+---------------*/
+.ui.fitted.checkbox .box,
+.ui.fitted.checkbox label {
+  padding-left: 0em !important;
+}
+.ui.fitted.toggle.checkbox,
+.ui.fitted.toggle.checkbox {
+  width: 3.5rem;
+}
+.ui.fitted.slider.checkbox,
+.ui.fitted.slider.checkbox {
+  width: 3.5rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+     User Global Variables
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.ribbon {
+  margin-top: -0.707em;
+  padding-top: 0.3535rem;
+  padding-bottom: 0.3535rem;
+}
+.answer-feedback .ui.ribbon h4 {
+  font-size: 0.707rem;
+}
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Theme Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+/*******************************
+         Site Overrides
+*******************************/
+.answer-feedback.ui.segment {
+  background: #e0fae6;
+  margin: 0.707em;
+}
+
+/*# sourceMappingURL=style.css.map */

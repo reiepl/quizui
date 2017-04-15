@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+  </head>
+  <body>
+    <section class="page-container ui container">
+      <h1 class="page-title">Quiz</h1>
+      <article class="quiz-container">
+        <h2 class="quiz-title">Quiz Title <small>(Quiz with all types of questions)</small></h2>
+        <form class="" id="quiz-form" name="quiz-form">
+          <article class="question-item question-wrong">
+            <div class="question-header">
+              <h3 class="question-title">
+                <span class="question-number">Q1</span>
+                What is my favourite food?
+                <small>(student answer correctly)</small>
+              </h3>
+            </div>
+            <div class="question-body answer-group">
+              <dl class="fieldset answer-item answer-correct">
+                <dd class="field-input">
+                  <div class="input-radio ui radio checkbox">
+                    <input type="radio" id="radio-1" name="Radio" value="Radio" checked="checked" class="hidden">
+                    <label for="radio-1">
+                      <div class="answer-details">Char Bee Hoon</div>
+                    </label>
+                  </div>
+                  </div>
+                  <div class="answer-feedback ui segment">
+                    <a class="ui green ribbon label"><h4 >Answer Feedback</h4></a>
+                    <p>Yes, this is proof that we are best friends. BFF!</p>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="fieldset answer-item">
+                <dd class="field-input">
+                  <div class="input-radio ui radio checkbox">
+                    <input type="radio" id="radio-2" name="Radio" value="Radio"  class="hidden">
+                    <label for="radio-2">
+                      <div class="answer-details">Bak Chor Mee</div>
+                    </label>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="fieldset answer-item">
+                <dd class="field-input">
+                  <div class="input-radio ui radio checkbox">
+                    <input type="radio" id="radio-3" name="Radio" value="Radio" class="hidden">
+                    <label for="radio-3">
+                      <div class="answer-details">Pig's Organs Soup</div>
+                    </label>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="fieldset answer-item">
+                <dd class="field-input">
+                  <div class="input-radio ui radio checkbox">
+                    <input type="radio" id="radio-4" name="Radio" value="Radio" class="hidden">
+                    <label for="radio-4">
+                      <div class="answer-details">Char Kway Tiao</div>
+                    </label>
+                  </div>
+                </dd>
+              </dl>
+              <dl class="fieldset answer-item">
+                <dd class="field-input">
+                  <div class="input-radio ui radio checkbox">
+                    <input type="radio" id="radio-5" name="Radio" value="Radio">
+                    <label for="radio-5">
+                      <div class="answer-details">Chicken Curry</div>
+                    </label>
+                  </div>
+                </dd>
+              </dl>
+
+            </div>
+            <div class="question-footer">
+              <div class="question-hint ui padded segment">
+                <h4 class="hint-title">Hint</h4>
+                <p>If you have observed the food I ordered during lunch, you would know.</p>
+              </div>
+              <div class="question-explanation ui padded segment">
+                <h4 class="hint-title">Explanation</h4>
+                <p>Participlate actively during get-to-know sessions and ice-breakers to get to know your peers. After some observation, you would know that my favourite food is Char Bee Hoon.</p>
+              </div>
+            </div>
+          </article>
+        </form>
+      </article>
+  </body>
+</html>

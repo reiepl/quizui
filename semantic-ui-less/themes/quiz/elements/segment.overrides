@@ -1,0 +1,7 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.answer-feedback .ui.segment {
+  background: lighten(@green, 10%);
+  margin:unit(@scale_50, em);
+}
